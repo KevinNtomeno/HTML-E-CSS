@@ -1,0 +1,27 @@
+Curso de python playlist
+https://youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&si=Pe9_yIqVQVIv1mjg
+primeiro video
+https://youtu.be/S9uPNppGsGo?si=bmNsN6qrYMZ8la0Y
+    icorporacao
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo?si=oGXZFaLNbdhZXaLJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+ playlist curso de hardware 
+https://youtube.com/playlist?list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW&si=X13Zgvb9ox5weaLq
+primeiro video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iT6E92Kt38o?si=CYbXT7aw2EKPFq_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Curso de java
+https://youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&si=OGiMK8sSckWhO625
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1-w1RfGIov4?si=6i049ozwvfBbryld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Curso HTML
+https://youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&si=x5liDtQNWse37pZ3
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok?si=v8tziGE3XVAzwmsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+

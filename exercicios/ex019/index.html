@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Peseudo Classes</title>
+	<style>
+		body{
+			font-family: arial;
+			font-size: 1.5em;
+		}
+		a{
+			text-decoration: none;
+			color: skyblue;
+		}
+		a:hover{
+			color: indianred;
+			margin: 20px;
+			transition: 1s;
+		}
+
+
+		a::after{
+			content: ' red';
+		}	
+
+		
+
+	</style>
+</head>
+<body>
+	<h1>Pseudo Classes</h1>
+	
+	<ul>
+		<li><a href="#" class="teamo">I love you</a></li>
+		<li><a href="#" class="naoteamo">I don't love you</a></li>
+		<li><a href="#" class="amogirl">I love tha girls</a></li>
+	</ul>
+
+</body>
+</html>

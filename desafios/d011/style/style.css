@@ -1,0 +1,17 @@
+
+
+.foto {
+text-align: center;
+}
+body{
+    background-image: url('../img/espaco.jpg');
+
+}
+
+@media (max-width: 500px) {
+
+    .foto img{
+        width: 300px;
+    }
+    
+}

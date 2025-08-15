@@ -1,0 +1,19 @@
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    border-style: groove;
+    border-color: aliceblue;
+    border-radius: 1cm;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}

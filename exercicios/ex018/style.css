@@ -1,0 +1,25 @@
+body{
+	font-family: arial;
+	text-align: justify;
+	background-color: darkcyan;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	height: 115px;
+	text-indent: 30px;
+}
+h2{
+	text-indent: 20px;
+}
+
+h1#ganhar{
+	border: groove 2px green;
+}
+h1#perder{
+	border: solid 2px red;
+}

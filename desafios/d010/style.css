@@ -1,0 +1,164 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+/*
+Cores:
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1c
+*/
+
+:root{
+    --color1: #ebe5c5;
+    --color2: #83e1ad;
+    --color3: #3ddc84; 
+    --color4: #2fa866;
+    --color5: #1a5c37;
+    --color6: #063d1c;
+
+}
+
+
+
+body{
+    
+    background-color: rgba(213, 221, 141, 0.514);
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+* > a{
+    text-decoration: none;
+    color: rgb(8, 156, 8);
+}
+* > p{
+    font-size: 1.04em;
+}
+* {
+    margin: 0;
+}
+
+* > main a::after {
+    content: "🧷";
+}
+
+.tema{
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+.dica_inicial{
+    text-align: center;
+    padding: 5px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #83E1AD, rgb(6, 68, 6));
+    color: white;
+    padding: 25px;
+}
+
+.menu {
+    background-color: rgb(6, 68, 6);
+    padding: 5px;
+}
+.menu > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.menu > a:hover{
+    background-color: white;
+    color: rgb(8, 65, 8);
+    transition: 1.5s;
+}
+main > h1{
+    font-family: idroid;
+    color: rgb(6, 68, 6);
+}
+main >  h2 {
+    font-family: idroid;
+    color: rgb(6, 68, 6);
+    background-image: linear-gradient(to right, rgb(141, 211, 141),  rgba(255, 255, 255, 0.767));
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.555);
+    flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+    main {
+        width: 430px;
+    }
+}
+
+main > p{
+    text-indent: 25px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(6, 68, 6);
+    margin: 0px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.video{
+    height: 100%;
+    background-color: rgb(8, 65, 8);
+    text-align: center;
+}
+
+main > .video > video{
+    width: 700px;
+    padding: 20px;
+}
+@media (max-width: 760px) {
+    main > .video > video {
+        width: 400px;
+    }
+    
+}
+.extra {
+    background-color: rgba(129, 211, 129, 0.747);
+    padding: 0 0px 15px 0;
+    border-radius: 10px;
+}
+.extra > .aprender > h3{
+    background-color: rgb(42, 155, 42);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+
+}
+main > .extra > .lista{
+    display: flex;
+}
+
+main > .extra > .lista > .lista02{
+padding-left: 110px;
+}
+
+main > .foto{
+    text-align: center;
+}

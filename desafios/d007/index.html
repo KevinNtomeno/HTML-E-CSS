@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>TESTANDO IMAGENS</title>
+</head>
+<body>
+    <H1>Vai se adaptar</H1>
+    <p>A imagem vai se adaptar de acordo ao tamanho da tela == 710px  == 1010px</p>
+<p>
+    <pre>
+        <code>
+        < picture>
+            < source media="(max-width: 710px)" srcset="paisagem-p.png" type="image/png">
+            < source media="(max-width: 1010px)" srcset="paisagem-m.png" type="image/png">
+            < img src="paisagem-g.png" alt="Mulher olhando para um espaço aberto!">    
+        </ picture>
+        </code>
+    </pre>
+</p>
+<picture>
+    <source media="(max-width: 710px)" srcset="paisagem-p.png" type="image/png">
+    <source media="(max-width: 1010px)" srcset="paisagem-m.png" type="image/png">
+    <img src="paisagem-g.png" alt="Mulher olhando para um espaço aberto!">
+
+</picture>
+</body>
+</html>
