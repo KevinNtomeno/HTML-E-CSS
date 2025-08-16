@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        .foto{
+            background-color: brown;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        #f1{
+            background-color: chartreuse;
+            box-shadow: 15px 10px 20px rgba(210, 105, 30, 0.801);
+            transition-duration: 2s;
+
+        }
+        #f1:hover{
+            background-color: rgba(210, 105, 30, 0.801);
+            box-shadow: 15px 10px 20px chartreuse;
+            transform: translateY(50px);
+            transition-duration: 2s;
+        }
+
+        #f2{
+            background-image: linear-gradient(to right, rgb(206, 20, 20), rgb(2, 28, 255));
+        }
+        #f2:hover{
+            background-image: linear-gradient(to right,rgb(2, 28, 255), rgb(206, 20, 20));
+            transform: translateY(50px);
+
+            transition-duration: 1s;
+        }
+
+        #f3{
+            background-image: url("imagens/pattern002.png");
+            background-size: cover;
+        }
+        #f3:hover{
+            background-image: url("imagens/pattern004.png");
+            transform: translateY(50px);
+            transition-duration: 2s;
+            
+        }
+
+        body{
+            background-image: url("imagens/wallpaper001.jpg");
+            transition-duration: 3s;
+            
+        }
+        body:hover{
+            background-image: url("imagens/wallpaper002.jpg");
+            transition-duration: 3s;
+            transform-origin: -10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="foto" id="f1"></div>
+
+    <div class="foto" id="f2"></div>
+
+    <div class="foto" id="f3"></div>
+    
+</body>
+</html>

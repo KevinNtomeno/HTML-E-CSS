@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocos</title>
+    <style>
+        .bloco{
+            border: 2px solid black;
+            margin: 20px;
+            height: 100px;
+            border-radius: 10px;
+            background-color: rgba(218, 165, 32, 0.473);
+            padding: 25px;
+            min-width: 400px;
+            max-width: 600px;
+
+        }
+        body{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: left center;
+            background-repeat: no-repeat;
+            background-size: 2100px 2300px;
+            transition: 50s;
+        }
+        body:hover{
+            background-position: right center;
+            transition: 50s;
+        
+        }
+        #c1{
+            background-image: url('imagens/wallpaper003.jpg');
+            transition-duration: 2s;
+        }
+        #c1:hover{
+            background-position: top right;
+            transition-duration: 2s;
+        }
+
+
+        #c2{
+            background-image: url('imagens/wallpaper003.jpg');
+            background-position: center center;
+            transition: 2s;
+        }
+        #c2:hover{
+            background-position: bottom center;
+            transition-duration: 2s;
+        }
+        #c3{
+            background-image: url('imagens/wallpaper003.jpg');
+            background-position: left bottom;
+            transition: 2s;
+        }
+        #c3:hover{
+            background-position: right bottom;
+            transition: 2s;
+        }
+
+        #c4{
+            background-image: url('imagens/wallpaper003.jpg');
+            transition: 2s;
+            background-position: bottom center;
+        }
+        #c4:hover{
+            background-position: top center;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bloco" id="c1"></div>
+    <div class="bloco" id="c2"></div>
+    <div class="bloco" id="c3"></div>
+    <div class="bloco" id="c4"></div>
+    
+</body>
+</html>
