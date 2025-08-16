@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+   *{
+    margin: 0;
+   }
+
+        body{
+            background-color: black;
+            background: rgba(0, 0, 0, 0.527) ;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .login{
+            position: absolute;
+            background-color: rgba(6, 62, 66, 0.568);
+            width: 400px;
+            height: 420px;
+            padding: 20px;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(255, 255, 255);
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+
+        }
+
+        .login > h2{
+            padding: 20px;
+            
+
+        }
+
+        .login > .nome{
+            padding: 20px;
+        }
+
+        .login > .senha{
+            padding: 20px;
+        }
+        .login button{
+            margin: 10px;
+            padding: 10px 50px 10px 50px;
+            background-color: transparent;
+            outline: none;
+            border: 2px solid gold;
+            border-radius: 10px;
+            color: #fff;
+            margin-bottom: 30px;
+        
+        }
+        .login button:hover{
+
+            background-image: linear-gradient(to right, gold, red);
+            color: black;
+        
+
+        }
+
+
+        .login input{
+            padding: 10px;
+            width: 300px;
+            font-size: 1.2em;
+            border-radius: 20px;
+            outline: none;
+            border: 2px solid black;
+        }
+        .login .nome p{
+            font-size: 1.3em;
+            padding-bottom: 15px;
+        }
+        .login .senha p{
+            padding-bottom: 15px;
+            font-size: 1.3em;
+        }
+        .extra a{
+            padding-top: 10px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding-right:30px;
+            text-align: center;
+        }
+
+        .extra a:hover{
+            text-decoration: underline;
+        }
+
+        .login .nome::placeholder{
+            color: gold;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="login">
+        <h2>Tela de Login</h2>
+        <div class="nome"> <input type="email" placeholder="E-mail"></div>
+        <div class="senha"> <input type="password" placeholder="Senha"></div>
+        <p><a href="#"><button><strong>Entrar</strong></button></a></p>
+        <div class="extra">
+            <a href="#">Nao tem uma conta?</a>
+            <a href="#">Esqueceu a senha?</a>
+
+        </div>
+    </div>
+    
+</body>
+</html>
