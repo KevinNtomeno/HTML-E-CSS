@@ -1,17 +1,18 @@
 
 
-.foto {
-text-align: center;
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250px);
+
 }
 body{
     background-image: url('../img/espaco.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    background-attachment: fixed;
 
-}
-
-@media (max-width: 500px) {
-
-    .foto img{
-        width: 300px;
-    }
-    
 }
