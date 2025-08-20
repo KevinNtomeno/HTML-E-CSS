@@ -1,0 +1,103 @@
+@charset "UTFI-8";
+
+
+:root{
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+@font-face {
+    font-family: cake;
+    src: url('../fonts/Sundori.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-family: cake;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header > h1{
+    padding: 10px;
+    font-variant: small-caps;
+    font-size: 4em;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section > p{
+    line-height: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+.normal{
+
+}
+.normal > p{
+    padding-bottom: 30px;
+}
+
+.especial{
+    padding: 50px 0 50px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.especial > p{
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    min-width: 400px;
+    max-width: 800px;
+}
+#f1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right bottom;
+
+}
+
+#f2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right bottom;
+
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
