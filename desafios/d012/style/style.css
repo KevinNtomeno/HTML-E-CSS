@@ -1,0 +1,129 @@
+        * {
+            margin: 0;
+            scroll-behavior: smooth;
+
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header h1{
+            padding: 20px;
+            font-size: 4em;
+        }
+        header a{
+            color: white;
+            text-decoration: none;
+        }
+        header a:hover{
+
+            text-decoration: underline;
+
+        }
+
+        main section p{
+            text-align: justify;
+            padding: 10px;
+            line-height: 2em;
+            font-size: 1.5em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            transition: 1s;
+
+            
+
+        }
+        .estrofe1{
+            padding-bottom: 60px;
+        }
+
+        .estrofe2{
+            padding-top: 160px ;
+            padding-bottom: 160px;
+            background-image: url('../imagens/background001.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            
+        }
+        .estrofe2 p {
+            background-color: rgba(0, 0, 0, 0.466);
+            min-width: 300px;
+            max-width: 400px;
+            color: white;
+            padding: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 50px;
+            transform: translateX(20px);
+            transition: 2s;
+
+        }
+
+        .estrofe4{
+            background-image: url('../imagens/background002.jpg');
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 50px 0 50px 0;
+        }
+        .estrofe4 p{
+            background-color: rgba(0, 0, 0, 0.466);
+            color: white;
+            max-width: 400px;
+            min-width: 300px;
+            transition: 2s;
+
+            border-radius: 20px;
+            padding: 20px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            transform: translateX(20px);
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer p{
+            font-size: 1.2em;
+            
+        }
+
+        footer a{
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+        }
+        @media (min-width:800px) {
+            header{
+                transition: 1s;
+            }
+            *{
+                font-size: 1.1em;
+                
+            }
+            
+            .estrofe4 p{
+                max-width: 600px;
+                min-width: 500px;
+                transition: 2s;
+            }
+
+            .estrofe2 p{
+                max-width: 600px;
+                min-width: 500px;
+                transition: 2s;
+
+            }
+            
+        }
