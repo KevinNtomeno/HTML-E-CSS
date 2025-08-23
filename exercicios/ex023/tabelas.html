@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header {
+            background-color: black;
+            color: rgb(241, 179, 21);
+            text-align: center;
+            padding: 10px;
+        }
+
+        header > h1{
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        header > p{
+            font-weight: bolder;
+            font-size: 1.2em;
+        }
+
+        nav{
+            background-color: black;
+            padding: 15px;
+        }
+        nav > a{
+            margin: 30px;
+            text-decoration: none;
+            color: rgb(241, 179, 21);
+            border: 2px solid rgb(241, 179, 21);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        main{
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main table{
+            padding-top: 50px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        table td{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 20px;
+
+
+        }
+        main > h2{
+            margin-bottom: 30px;
+        }
+        .titulo{
+            background-image: url('../ex022/imagens/goku2.png');
+            background-size: cover;
+            color: rgb(4, 172, 158);
+
+        }
+        body > main:has(input:checked){
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0.842), black );
+            color: white;
+            border: 1px solid white;
+        }
+    </style>
+    <header>
+        <h1>Site dos Tabelados</h1>
+        <p>As Melhores Tabelas Você Acha Aqui.</p>
+    </header>
+    <nav>
+        <a href="#">Tabela 1</a>
+        <a href="#">Tabela 2</a>
+        <a href="#">Tabela 3</a>
+    </nav>
+
+    <main>
+
+        <h2>Tabela 1 - Melhores GTA'S</h2>
+        <table>
+
+            <tr>
+                <td class="titulo">GTA'S</td>
+            </tr>
+            
+            <tr>
+                <td>GTA 1</td>
+                <td>GTA 2</td>
+                <td>GTA 3</td>
+                <td>GTA 4</td>
+                <td>GTA 5</td>
+            </tr>
+            <tr>
+                <td>GTA I</td>
+                <td>GTA II</td>
+                <td>GTA III</td>
+                <td>GTA IV</td>
+                <td>GTA V</td>
+            </tr>
+        </table>
+
+        <input type="checkbox">
+    </main>
+    
+</body>
+</html>
