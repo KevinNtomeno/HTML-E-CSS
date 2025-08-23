@@ -42,7 +42,6 @@
         main{
             margin-top: 40px;
             padding: 20px;
-            text-align: center;
         }
 
         main table{
@@ -52,22 +51,19 @@
         table{
             border-collapse: collapse;
         }
-        table td{
-            border: 1px solid rgb(0, 0, 0);
-            padding: 20px;
-
+        td{
+            border: 1px solid rgb(221, 80, 226);
+            width: 200px;
+            height: 50px;
+            
+            vertical-align: top;
+            text-align: right;
 
         }
         main > h2{
             margin-bottom: 30px;
         }
-        .titulo{
-            background-image: url('../ex022/imagens/goku2.png');
-            background-size: cover;
-            color: rgb(4, 172, 158);
-
-        }
-        body > main:has(input:checked){
+         main:has(input:checked){
             background-image: linear-gradient(to right, rgba(255, 0, 0, 0.842), black );
             color: white;
             border: 1px solid white;
@@ -88,9 +84,6 @@
         <h2>Tabela 1 - Melhores GTA'S</h2>
         <table>
 
-            <tr>
-                <td class="titulo">GTA'S</td>
-            </tr>
             
             <tr>
                 <td>GTA 1</td>
