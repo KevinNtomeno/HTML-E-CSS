@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        .form{
+            background-color: rgba(27, 27, 1, 0.904);
+            color: white;
+            padding: 80px 30px 80px 30px;
+            text-align: center;
+            width: 300px;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+        }
+        .form input{
+            font-size: 1.3em;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>FORMULARIOS</h1>
+    <div class="form">
+        <p>Escreva os seus dados!</p>
+        <form action="cadastro.php" method="POST">
+            <p>
+                <label for="inome">Nome </label>
+                <input type="text" name="nome" id="inome">
+            </p>
+
+            <p>
+                <label for="isobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="isobrenome">
+            </p>
+
+                <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
