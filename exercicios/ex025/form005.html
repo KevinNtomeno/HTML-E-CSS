@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 005</title>
+</head>
+<body>
+        <form action="cadastro.php" autocomplete="on" method="post">
+            
+            <label for="ianime">Escolha: </label>
+            <select name="animes" id="ianime">
+                <optgroup label="ANIMES">
+                    <option value="SELECIONE"></option>
+                    <option value="DAN">DAN DAN DAN</option>
+                    <option value="BLA">BLACK CLOVER</option>
+                    <option value="NA">NARUTO</option>
+                    <option value="SHO">SHOKUGUEKI NO SOUMA</option>
+                    <option value="KA">KAIJOO N8</option>
+                    <option value="DA">DARLING FRANX</option>
+                    <option value="DE">DEATH NOTE</option>
+                </optgroup>
+
+
+                <optgroup label="SONS">
+                    <option value="SU">SUITON</option>
+                    <option value="RA">RAP DO GOKU</option>
+                    <option value="AK">AKUMA NO MI</option>
+                    <option value="BLA">BLACK ROVER</option>
+                    <option value="SI">SIGN</option>
+                    <option value="DA">DADY DADDY DO</option>
+                </optgroup>
+            </select>
+
+            <p>
+                <label for="iprof">Profissao: </label>
+                <input type="text" name="prof" id="iprof" list="proflist">
+                <datalist id="proflist">
+                    <option value="">ASSASINO</option>
+                    <option value="">ADM</option>
+                    <option value="">INFORMATICO</option>
+                    <option value="">HACKER</option>
+                    <option value="">DESENHADOR</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imsg"></label>
+                Mensagem: <br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
