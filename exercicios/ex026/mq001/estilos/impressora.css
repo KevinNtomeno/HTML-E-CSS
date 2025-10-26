@@ -1,0 +1,18 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+menu{
+    display: none;
+}
+html{
+    text-align: justify;
+    line-height: 20px;
+}
+article::after{
+    content: "Tudo foi baixado no site do ndombele";
+}

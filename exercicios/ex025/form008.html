@@ -10,7 +10,10 @@
 
         <p>
             <label for="iidade">IDADE</label>
-            <input type="number" name="idade" id="iidade" min="1000" max="3000">
+            <input type="number" name="idade" id="iidade" min="1000" max="3000" oninput="cal()">
+        </p>
+        <p>
+             <output id="saida">0</output>
         </p>
 
 
@@ -20,5 +23,18 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
+
+    <script>
+        function cal(){
+            let data = new Date().getFullYear()
+            if (Number(data) - Number(iidade.value) < 0){
+                saida.innerHTML = "Idade invalida"
+            }else{
+
+                saida.innerHTML = Number(data) - Number(iidade.value)
+
+            }
+        }
+    </script>
 </body>
 </html>
