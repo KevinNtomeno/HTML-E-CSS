@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    MOBILE FIRST
+*/
+
+body{
+    background-image: url('../imagens/back-phone.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.527);
+    width: fit-content;
+    display: block;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+#pc{
+    display: none;
+}
+#tv{
+    display: none;
+}
+#print{
+    display: none;
+}
+#tablet{
+    display: none;
+} 
+#phone{
+    display: block;
+}

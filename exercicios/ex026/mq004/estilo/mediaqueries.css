@@ -1,0 +1,109 @@
+
+/*PARA PC */
+
+@media (min-width: 1281px) and (max-width: 1536px) {
+
+
+    body{
+        background-image: url('../imagens/back-pc.jpg');
+    }
+
+    #pc{
+    display: block;
+    }
+
+    #tv{
+        display: none;
+    }
+    #print{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    } 
+    #phone{
+        display: none;
+    }
+    
+}
+
+/* PARA TABLETS */
+
+@media (min-width: 641px) and (max-width: 1281px) {
+
+    body{
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+
+    #pc{
+    display: none;
+    }
+
+    #tv{
+        display: none;
+    }
+    #print{
+        display: none;
+    }
+    #tablet{
+        display: block;
+    } 
+    #phone{
+        display: none;
+    }
+}
+
+/* PARA IMPRESSORAS */
+
+@media print {
+
+
+    body{
+        background-image: url('../imagens/back-print.jpg');
+        background-color: black;
+    }
+    
+
+    #pc{
+    display: none;
+    }
+
+    #tv{
+        display: none;
+    }
+    #print{
+        display: block;
+    }
+    #tablet{
+        display: none;
+    } 
+    #phone{
+        display: none;
+    } 
+}
+
+
+/* PARA TV */
+
+@media (min-width: 1540px) {
+    body{
+        background-image: url('../imagens/back-tv.jpg');
+    }
+    #pc{
+    display: none;
+    }
+
+    #tv{
+        display: block;
+    }
+    #print{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    } 
+    #phone{
+        display: none;
+    }    
+    
+}
