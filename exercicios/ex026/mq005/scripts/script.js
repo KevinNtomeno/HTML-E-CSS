@@ -1,8 +1,7 @@
 
 
-function mostarmenu(){
-    const menu = document.querySelector('#menu')
-
+function mostarmenu(){ 
+    let menu = document.querySelector('#menu')
     if (menu.style.display  == 'block'){
         menu.style.display = 'none'
     }else{
@@ -11,8 +10,13 @@ function mostarmenu(){
 
 }
 
-function apagarMenu(){
-    const menu1 = document.querySelector('#tela')
+function mudouWidth(){
+    let menu = document.querySelector('#menu')
 
+    if(window.innerWidth >= 768){
+        menu.style.display = 'block'
+    }else{
+        menu.style.display = 'none'
+    }
     
 }
